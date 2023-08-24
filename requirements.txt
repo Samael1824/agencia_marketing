@@ -1,0 +1,8 @@
+django==3.2.20 /*version_de_django*/
+django-environ==0.10.0 //se_usa_para_proteger_llaves_las_cuales_son_las_variables_de_ambiente
+django-cors-headers==4.2.0 //ayuda_a_la_comunicacion_entre_el_frontend_y_el_backend,_esto_autoriza_quien_acceder_al_api
+djangorestframework==3.14.0 //funciona_para_crear_apis_con_django
+Pillow==10.0.0 //esto_funciona_para_trabajar_con_imagenes
+django-storages==1.13.2 //nos_permite_guardar_imagenes_o_un_video,_cosas_que_pesen_en_aws
+django-ckeditor==6.7.0 //nos_ayuda_a_crear_contenido_de_manera_mas_rica
+psycopg2==2.9.7 //ayuda_a_conectarse_con_la_Base_de_Datos_con_postgreSql
